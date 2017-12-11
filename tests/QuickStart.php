@@ -4,7 +4,7 @@
 *
 *	@license http://opensource.org/licenses/MIT
 *	@link https://github.com/pllano/csv
-*	@version 1.0.1
+*	@version 1.0.2
 *	@package pllano.csv
 *
 *	For the full copyright and license information, please view the LICENSE
