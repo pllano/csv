@@ -1,0 +1,29 @@
+{
+    "name":"pllano/csv",
+    "type": "library",
+    "description": "Read very large CSV files in parts",
+    "keywords": ["csv", "read", "parts"],
+    "license": "MIT",
+	"homepage": "https://github.com/pllano/csv",
+    "authors": [
+        {
+            "name": "pllano",
+            "email": "support@pllano.com",
+            "homepage": "https://pllano.com/"
+        }
+    ],
+    "require":{
+        "php":">=5.3.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Pllano\\Csv\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
