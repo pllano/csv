@@ -201,7 +201,7 @@ if ($filename && $end >= 0 && $rows_total >= 0) {
 Security
 -------
 
-If you discover any security related issues, please email support@pllano.com instead of using the issue tracker.
+If you discover any security related issues, please email open.source@pllano.com instead of using the issue tracker.
 
 
 License
