@@ -1,11 +1,11 @@
 <?php 
 /**
-*	This file is part of the joomimart.csv library
+*	This file is part of the pllano.csv library
 *
 *	@license http://opensource.org/licenses/MIT
-*	@link https://github.com/joomimart/csv
-*	@version 1.0.1
-*	@package joomimart.csv
+*	@link https://github.com/pllano/csv
+*	@version 1.0.2
+*	@package pllano.csv
 *
 *	For the full copyright and license information, please view the LICENSE
 *	file that was distributed with this source code.
@@ -28,9 +28,9 @@ function clean($value = '')
 	
 	//	Include Composer autoloader if not already done.
 	require 'vendor/autoload.php';
-	//	require_once __DIR__.'/vendor/joomimart/csv/src/Reader.php';
+	//	require_once __DIR__.'/vendor/pllano/csv/src/Reader.php';
 	
-	$csv = new joomiMart\Csv\Reader($filename);
+	$csv = new Pllano\Csv\Reader($filename);
 	
 	//	$csv->setDelimiter(';'); // default: ;
 	//	$csv->setEnclosure('"'); // default: "
