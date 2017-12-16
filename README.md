@@ -23,7 +23,7 @@ or in composer.json
 
 ```
 "require": {
-	"pllano/csv": "1.*"
+	"pllano/csv": "1.0.2"
 }
 ```
 
